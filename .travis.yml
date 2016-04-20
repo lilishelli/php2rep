@@ -6,4 +6,3 @@ php:
   - 5.6
   - hhvm
 script: phpunit MyClassTest.php
-phpunit
