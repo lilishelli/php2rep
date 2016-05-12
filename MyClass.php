@@ -5,4 +5,8 @@ class MyClass {
     {
         return pow($x, $y);
     }
+	public function mul($x, $y)
+    {
+        return $x*$y;
+    }
 }

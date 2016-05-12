@@ -7,4 +7,9 @@ class MyClassTest extends PHPUnit_Framework_TestCase {
         $my = new MyClass();
         $this->assertEquals(8, $my->power(2, 3)); 
 	}
+	public function testMul()
+    {
+        $my = new MyClass();
+        $this->assertEquals(6, $my->power(2, 3)); 
+	}
 }
