@@ -3,6 +3,6 @@ class MyClass {
 
     public function power($x, $y)
     {
-        return pow($x, $x);
+        return pow($x, $y);
     }
 }
